@@ -1,4 +1,5 @@
 language: node_js
 node_js:
   - "16"
-  - "node"
+before_install:
+  - npm install -g mocha
